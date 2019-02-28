@@ -1,0 +1,41 @@
+(base) MacBook-Air-Piorko:source jkk$ python3 train.py default 17 4
+Using TensorFlow backend.
+(2012, 1, 5) (2012,) (504, 1, 5) (504,)
+Train on 2012 samples, validate on 504 samples
+Epoch 1/17
+ - 7s - loss: 5507.4615 - mean_squared_error: 5507.4615 - mean_absolute_percentage_error: 93.7132 - val_loss: 26066.7318 - val_mean_squared_error: 26066.7318 - val_mean_absolute_percentage_error: 92.7253
+Epoch 2/17
+ - 4s - loss: 4332.3501 - mean_squared_error: 4332.3501 - mean_absolute_percentage_error: 73.9697 - val_loss: 23449.2445 - val_mean_squared_error: 23449.2445 - val_mean_absolute_percentage_error: 87.7447
+Epoch 3/17
+ - 4s - loss: 3482.5817 - mean_squared_error: 3482.5817 - mean_absolute_percentage_error: 61.5535 - val_loss: 21204.1336 - val_mean_squared_error: 21204.1336 - val_mean_absolute_percentage_error: 83.2405
+Epoch 4/17
+ - 4s - loss: 2818.3316 - mean_squared_error: 2818.3316 - mean_absolute_percentage_error: 53.8493 - val_loss: 19248.6995 - val_mean_squared_error: 19248.6995 - val_mean_absolute_percentage_error: 79.1133
+Epoch 5/17
+ - 4s - loss: 2302.7757 - mean_squared_error: 2302.7757 - mean_absolute_percentage_error: 49.8989 - val_loss: 17544.7397 - val_mean_squared_error: 17544.7397 - val_mean_absolute_percentage_error: 75.3371
+Epoch 6/17
+ - 4s - loss: 1910.3127 - mean_squared_error: 1910.3127 - mean_absolute_percentage_error: 48.2636 - val_loss: 16068.0792 - val_mean_squared_error: 16068.0792 - val_mean_absolute_percentage_error: 71.9083
+Epoch 7/17
+ - 4s - loss: 1619.7138 - mean_squared_error: 1619.7138 - mean_absolute_percentage_error: 47.6742 - val_loss: 14800.8575 - val_mean_squared_error: 14800.8575 - val_mean_absolute_percentage_error: 68.8331
+Epoch 8/17
+ - 4s - loss: 1412.0113 - mean_squared_error: 1412.0113 - mean_absolute_percentage_error: 48.3760 - val_loss: 13727.8170 - val_mean_squared_error: 13727.8170 - val_mean_absolute_percentage_error: 66.1204
+Epoch 9/17
+ - 4s - loss: 1269.8297 - mean_squared_error: 1269.8297 - mean_absolute_percentage_error: 49.7392 - val_loss: 12833.9897 - val_mean_squared_error: 12833.9897 - val_mean_absolute_percentage_error: 63.7751
+Epoch 10/17
+ - 4s - loss: 1177.3509 - mean_squared_error: 1177.3509 - mean_absolute_percentage_error: 51.4709 - val_loss: 12103.0186 - val_mean_squared_error: 12103.0186 - val_mean_absolute_percentage_error: 61.7929
+Epoch 11/17
+ - 4s - loss: 1120.7023 - mean_squared_error: 1120.7023 - mean_absolute_percentage_error: 53.2735 - val_loss: 11516.5570 - val_mean_squared_error: 11516.5570 - val_mean_absolute_percentage_error: 60.1567
+Epoch 12/17
+ - 4s - loss: 1088.4087 - mean_squared_error: 1088.4087 - mean_absolute_percentage_error: 54.9803 - val_loss: 11054.5758 - val_mean_squared_error: 11054.5758 - val_mean_absolute_percentage_error: 58.8367
+Epoch 13/17
+ - 4s - loss: 1071.6374 - mean_squared_error: 1071.6374 - mean_absolute_percentage_error: 56.4800 - val_loss: 10696.5018 - val_mean_squared_error: 10696.5018 - val_mean_absolute_percentage_error: 57.7935
+Epoch 14/17
+ - 4s - loss: 1064.1007 - mean_squared_error: 1064.1007 - mean_absolute_percentage_error: 57.7028 - val_loss: 10422.6338 - val_mean_squared_error: 10422.6338 - val_mean_absolute_percentage_error: 56.9831
+Epoch 15/17
+ - 4s - loss: 1061.6561 - mean_squared_error: 1061.6561 - mean_absolute_percentage_error: 58.6705 - val_loss: 10215.3023 - val_mean_squared_error: 10215.3023 - val_mean_absolute_percentage_error: 56.3621
+Epoch 16/17
+ - 4s - loss: 1061.7666 - mean_squared_error: 1061.7666 - mean_absolute_percentage_error: 59.4300 - val_loss: 10059.4900 - val_mean_squared_error: 10059.4900 - val_mean_absolute_percentage_error: 55.8910
+Epoch 17/17
+ - 4s - loss: 1062.9807 - mean_squared_error: 1062.9807 - mean_absolute_percentage_error: 60.0149 - val_loss: 9942.9633 - val_mean_squared_error: 9942.9633 - val_mean_absolute_percentage_error: 55.5361
+Scores for default (epochs=17, batch_size=4)
+Train Score: RMSE: $33 MAPE: 61%
+Test Score: RMSE: $100 MAPE: 56%

@@ -1,0 +1,16 @@
+(base) MacBook-Air-Piorko:source jkk$ python3 train.py default 4 1
+Using TensorFlow backend.
+(2012, 1, 5) (2012,) (504, 1, 5) (504,)
+Train on 2012 samples, validate on 504 samples
+Epoch 1/4
+ - 21s - loss: 4486.3047 - mean_squared_error: 4486.3047 - mean_absolute_percentage_error: 85.2680 - val_loss: 22347.7690 - val_mean_squared_error: 22347.7690 - val_mean_absolute_percentage_error: 85.5639
+Epoch 2/4
+ - 26s - loss: 2774.9521 - mean_squared_error: 2774.9521 - mean_absolute_percentage_error: 54.6707 - val_loss: 18158.9259 - val_mean_squared_error: 18158.9259 - val_mean_absolute_percentage_error: 76.7192
+Epoch 3/4
+ - 18s - loss: 1802.1627 - mean_squared_error: 1802.1627 - mean_absolute_percentage_error: 46.5028 - val_loss: 14911.8659 - val_mean_squared_error: 14911.8659 - val_mean_absolute_percentage_error: 69.1079
+Epoch 4/4
+ - 16s - loss: 1282.8698 - mean_squared_error: 1282.8698 - mean_absolute_percentage_error: 46.4832 - val_loss: 12532.5164 - val_mean_squared_error: 12532.5164 - val_mean_absolute_percentage_error: 62.9650
+Scores for default (epochs=4, batch_size=1)
+Train Score: RMSE: $34 MAPE: 53%
+Test Score: RMSE: $112 MAPE: 63%
+

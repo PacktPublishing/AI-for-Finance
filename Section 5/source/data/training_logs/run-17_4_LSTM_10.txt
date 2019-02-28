@@ -1,0 +1,33 @@
+(base) MacBook-Air-Piorko:source jkk$ python3 train.py default 13 2
+Using TensorFlow backend.
+(2012, 1, 5) (2012,) (504, 1, 5) (504,)
+Train on 2012 samples, validate on 504 samples
+Epoch 1/13
+ - 9s - loss: 5635.3372 - mean_squared_error: 5635.3372 - mean_absolute_percentage_error: 92.2619 - val_loss: 27183.4469 - val_mean_squared_error: 27183.4469 - val_mean_absolute_percentage_error: 94.7721
+Epoch 2/13
+ - 6s - loss: 4991.6731 - mean_squared_error: 4991.6731 - mean_absolute_percentage_error: 81.9459 - val_loss: 25731.5072 - val_mean_squared_error: 25731.5072 - val_mean_absolute_percentage_error: 92.1022
+Epoch 3/13
+ - 6s - loss: 4460.3468 - mean_squared_error: 4460.3468 - mean_absolute_percentage_error: 73.9484 - val_loss: 24385.4308 - val_mean_squared_error: 24385.4308 - val_mean_absolute_percentage_error: 89.5573
+Epoch 4/13
+ - 6s - loss: 3984.4710 - mean_squared_error: 3984.4710 - mean_absolute_percentage_error: 67.0602 - val_loss: 23114.7189 - val_mean_squared_error: 23114.7189 - val_mean_absolute_percentage_error: 87.0880
+Epoch 5/13
+ - 6s - loss: 3555.8091 - mean_squared_error: 3555.8091 - mean_absolute_percentage_error: 61.6115 - val_loss: 21910.2007 - val_mean_squared_error: 21910.2007 - val_mean_absolute_percentage_error: 84.6823
+Epoch 6/13
+ - 6s - loss: 3170.7445 - mean_squared_error: 3170.7445 - mean_absolute_percentage_error: 57.1604 - val_loss: 20768.9081 - val_mean_squared_error: 20768.9081 - val_mean_absolute_percentage_error: 82.3394
+Epoch 7/13
+ - 6s - loss: 2827.0614 - mean_squared_error: 2827.0614 - mean_absolute_percentage_error: 53.7863 - val_loss: 19690.3235 - val_mean_squared_error: 19690.3235 - val_mean_absolute_percentage_error: 80.0636
+Epoch 8/13
+ - 6s - loss: 2522.9698 - mean_squared_error: 2522.9698 - mean_absolute_percentage_error: 51.5118 - val_loss: 18675.0269 - val_mean_squared_error: 18675.0269 - val_mean_absolute_percentage_error: 77.8620
+Epoch 9/13
+ - 6s - loss: 2256.6851 - mean_squared_error: 2256.6851 - mean_absolute_percentage_error: 49.8508 - val_loss: 17723.9738 - val_mean_squared_error: 17723.9738 - val_mean_absolute_percentage_error: 75.7430
+Epoch 10/13
+ - 6s - loss: 2026.2621 - mean_squared_error: 2026.2621 - mean_absolute_percentage_error: 48.9846 - val_loss: 16838.2136 - val_mean_squared_error: 16838.2136 - val_mean_absolute_percentage_error: 73.7160
+Epoch 11/13
+ - 6s - loss: 1829.4987 - mean_squared_error: 1829.4987 - mean_absolute_percentage_error: 48.3675 - val_loss: 16018.5977 - val_mean_squared_error: 16018.5977 - val_mean_absolute_percentage_error: 71.7906
+Epoch 12/13
+ - 7s - loss: 1663.9178 - mean_squared_error: 1663.9178 - mean_absolute_percentage_error: 48.0986 - val_loss: 15265.6309 - val_mean_squared_error: 15265.6309 - val_mean_absolute_percentage_error: 69.9763
+Epoch 13/13
+ - 6s - loss: 1526.7620 - mean_squared_error: 1526.7620 - mean_absolute_percentage_error: 48.3294 - val_loss: 14579.2449 - val_mean_squared_error: 14579.2449 - val_mean_absolute_percentage_error: 68.2815
+Scores for default (epochs=13, batch_size=2)
+Train Score: RMSE: $38 MAPE: 50%
+Test Score: RMSE: $121 MAPE: 68%

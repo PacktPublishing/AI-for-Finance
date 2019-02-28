@@ -1,0 +1,23 @@
+(base) MacBook-Air-Piorko:source jkk$ python3 train.py default 10 1
+Using TensorFlow backend.
+(2012, 1, 5) (2012,) (504, 1, 5) (504,)
+Train on 2012 samples, validate on 504 samples
+Epoch 1/10
+ - 15s - loss: 6276.9741 - mean_squared_error: 6276.9741 - mean_absolute_percentage_error: 98.3824 - val_loss: 29241.4781 - val_mean_squared_error: 29241.4781 - val_mean_absolute_percentage_error: 98.4347
+Epoch 2/10
+ - 12s - loss: 5996.9598 - mean_squared_error: 5996.9598 - mean_absolute_percentage_error: 94.3518 - val_loss: 28618.7777 - val_mean_squared_error: 28618.7777 - val_mean_absolute_percentage_error: 97.3408
+Epoch 3/10
+ - 12s - loss: 5743.0398 - mean_squared_error: 5743.0398 - mean_absolute_percentage_error: 91.0019 - val_loss: 28012.3510 - val_mean_squared_error: 28012.3510 - val_mean_absolute_percentage_error: 96.2637
+Epoch 4/10
+ - 12s - loss: 5497.9885 - mean_squared_error: 5497.9885 - mean_absolute_percentage_error: 87.6934 - val_loss: 27416.2076 - val_mean_squared_error: 27416.2076 - val_mean_absolute_percentage_error: 95.1933
+Epoch 5/10
+ - 12s - loss: 5260.7833 - mean_squared_error: 5260.7833 - mean_absolute_percentage_error: 84.4043 - val_loss: 26829.6104 - val_mean_squared_error: 26829.6104 - val_mean_absolute_percentage_error: 94.1283
+Epoch 6/10
+ - 12s - loss: 5031.2617 - mean_squared_error: 5031.2617 - mean_absolute_percentage_error: 81.1326 - val_loss: 26252.5208 - val_mean_squared_error: 26252.5208 - val_mean_absolute_percentage_error: 93.0689
+Epoch 7/10
+ - 12s - loss: 4809.3737 - mean_squared_error: 4809.3737 - mean_absolute_percentage_error: 77.8786 - val_loss: 25685.0090 - val_mean_squared_error: 25685.0090 - val_mean_absolute_percentage_error: 92.0154
+Epoch 8/10
+ - 12s - loss: 4595.0879 - mean_squared_error: 4595.0879 - mean_absolute_percentage_error: 74.7328 - val_loss: 25127.1639 - val_mean_squared_error: 25127.1639 - val_mean_absolute_percentage_error: 90.9683
+Epoch 9/10
+ - 12s - loss: 4388.3653 - mean_squared_error: 4388.3653 - mean_absolute_percentage_error: 71.7739 - val_loss: 24579.0677 - val_mean_squared_error: 24579.0677 - val_mean_absolute_percentage_error: 89.9277
+Epoch 10/10

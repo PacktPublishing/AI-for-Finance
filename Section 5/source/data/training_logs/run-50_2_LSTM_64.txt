@@ -1,0 +1,21 @@
+(base) MacBook-Air-Piorko:source jkk$ python3 train.py default 50 2
+Using TensorFlow backend.
+(2012, 1, 5) (2012,) (504, 1, 5) (504,)
+Train on 2012 samples, validate on 504 samples
+Epoch 1/50
+ - 15s - loss: 5305.1350 - mean_squared_error: 5305.1350 - mean_absolute_percentage_error: 91.6005 - val_loss: 25479.3194 - val_mean_squared_error: 25479.3194 - val_mean_absolute_percentage_error: 91.6307
+Epoch 2/50
+ - 13s - loss: 4087.7093 - mean_squared_error: 4087.7093 - mean_absolute_percentage_error: 70.6508 - val_loss: 22708.4547 - val_mean_squared_error: 22708.4547 - val_mean_absolute_percentage_error: 86.2839
+Epoch 3/50
+ - 9s - loss: 3212.5067 - mean_squared_error: 3212.5067 - mean_absolute_percentage_error: 58.4741 - val_loss: 20317.6426 - val_mean_squared_error: 20317.6426 - val_mean_absolute_percentage_error: 81.3948
+Epoch 4/50
+ - 9s - loss: 2536.6936 - mean_squared_error: 2536.6936 - mean_absolute_percentage_error: 51.5728 - val_loss: 18228.2859 - val_mean_squared_error: 18228.2859 - val_mean_absolute_percentage_error: 76.8737
+Epoch 5/50
+ - 9s - loss: 2025.3136 - mean_squared_error: 2025.3136 - mean_absolute_percentage_error: 48.4196 - val_loss: 16414.8647 - val_mean_squared_error: 16414.8647 - val_mean_absolute_percentage_error: 72.7277
+Epoch 6/50
+ - 9s - loss: 1653.5531 - mean_squared_error: 1653.5531 - mean_absolute_percentage_error: 47.3944 - val_loss: 14867.6608 - val_mean_squared_error: 14867.6608 - val_mean_absolute_percentage_error: 68.9986
+Epoch 7/50
+ - 9s - loss: 1397.9529 - mean_squared_error: 1397.9529 - mean_absolute_percentage_error: 47.9730 - val_loss: 13579.7734 - val_mean_squared_error: 13579.7734 - val_mean_absolute_percentage_error: 65.7376
+Epoch 8/50
+ - 9s - loss: 1234.1675 - mean_squared_error: 1234.1675 - mean_absolute_percentage_error: 49.6586 - val_loss: 12539.1139 - val_mean_squared_error: 12539.1139 - val_mean_absolute_percentage_error: 62.9828
+Epoch 9/50
